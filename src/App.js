@@ -8,6 +8,14 @@ import TestOnChangeEvent from "./Components/TestOnChangeEvent";
 import TestOnClickEvent from "./Components/TestOnClickEvent";
 import SnapShotTesting from "./Components/SnapShotTesting";
 import ClassComponentTest from "./Components/ClassComponentTest";
+import FunctionalCompMethodTest from "./Components/FunctionalCompMethodTest";
+import Sementic from "./SementicTagTest_ByRole/Sementic";
+import MultipleSementicElements from "./SementicTagTest_ByRole/MultipleSementicElements";
+import MultipleElements from "./MultipleElement_ByAllRole/MultipleElements";
+import OverRidingIdAttribute from "./Components/OverRidingIdAttribute";
+import ProductsList from "./Product/ProductsList";
+import TextMatchWithFunction from "./TextMatchWithFunction/TextMatchWithFunction";
+
 
 
 
@@ -19,22 +27,22 @@ function App() {
  
   return (
     <div className="App">
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-      <TestComp_1/>
+      {/* <TestComp_1/>
       <TestInputField/>
       <TestDescribeSkipOnly/>
       <TestOnChangeEvent/>
       <TestOnClickEvent/>
       <SnapShotTesting/>
       <ClassComponentTest/>
-    </div>
+      <FunctionalCompMethodTest/>
+      <Sementic/>
+      <MultipleSementicElements/>
+      <MultipleElements/>
+      <OverRidingIdAttribute/> */}
+      {/* <ProductsList/> */}
+
+      <TextMatchWithFunction/>
+      </div>
   );
 }
 
